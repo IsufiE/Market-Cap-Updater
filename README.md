@@ -37,7 +37,12 @@ If you need more consistent and accurate financial data (including reliable acce
 
 - [Alpha Vantage](https://www.alphavantage.co)  
 - [IEX Cloud](https://iexcloud.io)  
-- [Polygon.io](https://polygon.io)  
+- [Polygon.io](https://polygon.io)
+-
+-
+-
+- <img width="1914" height="949" alt="Screenshot 2025-07-22 015919" src="https://github.com/user-attachments/assets/e8b7209f-4282-424a-87d9-8c37e359f0ff" />
+
 
 
 
