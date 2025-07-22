@@ -33,10 +33,11 @@ Due to how Yahoo Finance’s public API works:
 - You may get `401` or `Too many requests` errors after frequent usage  
 - This app estimates market cap from `price * shares` if the raw `marketCap` field is missing (when possible)
 
-For full reliability, you’d need an API key from a paid service like:
+If you need more consistent and accurate financial data (including reliable access to market cap and outstanding shares), you'll need to use a paid API service such as:
 
-- [Alpha Vantage](https://www.alphavantage.co)
-- [IEX Cloud](https://iexcloud.io)
-- [Polygon.io](https://polygon.io)
+- [Alpha Vantage](https://www.alphavantage.co)  
+- [IEX Cloud](https://iexcloud.io)  
+- [Polygon.io](https://polygon.io)  
+
 
 
