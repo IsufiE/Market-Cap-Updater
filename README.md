@@ -25,16 +25,18 @@ A clean, beginner-friendly stock tracker app built with **React** and **Node.js/
 
 ---
 
-🔍 About the Market Cap + Shares Data
+## 🔍 About the Market Cap + Shares Data
+
 Due to how Yahoo Finance’s public API works:
 
--marketCap and sharesOutstanding might not always be available
--You may get 401 or Too many requests errors after frequent usage
--This app estimates market cap from price * shares if the raw marketCap field is missing (when possible)
+- `marketCap` and `sharesOutstanding` might not always be available  
+- You may get `401` or `Too many requests` errors after frequent usage  
+- This app estimates market cap from `price * shares` if the raw `marketCap` field is missing (when possible)
 
--For full reliability, you’d need an API key from a paid service like:
+For full reliability, you’d need an API key from a paid service like:
 
---Alpha Vantage
---IEX Cloud
---Polygon.io
+- [Alpha Vantage](https://www.alphavantage.co)
+- [IEX Cloud](https://iexcloud.io)
+- [Polygon.io](https://polygon.io)
+
 
