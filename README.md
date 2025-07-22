@@ -8,11 +8,9 @@ A clean, beginner-friendly stock tracker app built with **React** and **Node.js/
 
 ## 🚀 Features
 
-- 🔍 Search and track stock tickers
 - 💲 View current price, currency, and basic stats
-- 🔁 Live refresh support
+- 🔁 Live Data
 - 🔼 Sortable table by symbol and price
-- 📋 Modal popup with more detailed info
 - ✨ Clean, modern UI
 
 🧪 **Coming soon:** I plan to add a **visual graph** showing recent stock price trends!
@@ -27,11 +25,20 @@ A clean, beginner-friendly stock tracker app built with **React** and **Node.js/
 
 ---
 
-## 🧰 Getting Started
+🔍 About the Market Cap + Shares Data
+Due to how Yahoo Finance’s public API works:
 
-1. **Clone this repo**
+marketCap and sharesOutstanding might not always be available
 
-```bash
-git clone https://github.com/your-username/market-cap-updater.git
-cd market-cap-updater
+You may get 401 or Too many requests errors after frequent usage
+
+This app estimates market cap from price * shares if the raw marketCap field is missing (when possible)
+
+For full reliability, you’d need an API key from a paid service like:
+
+Alpha Vantage
+
+IEX Cloud
+
+Polygon.io
 
